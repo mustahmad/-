@@ -18,7 +18,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TOKEN = "8548795789:AAH0yBYfikcdFTgPLCunxhn7x0uUPPG2LDg"
+TOKEN = os.environ["TOKEN"]
 
 
 # ---------- Утилиты ----------
